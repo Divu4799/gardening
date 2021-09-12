@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 13px/24px 'Open Sans';
+}
+/* service */
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.service-list ul{
+    margin: 2rem auto;
+}
+.service-list ul li{
+    margin: 1rem 2px;
+    list-style: '▶';
+
+}
+.specialize{
+    width: 60%;
+}
+.num{
+    font-size: 31px;
+    line-height: 31px;
+    color: #000;
+    font-weight: 700;
+    min-width: 36px;
+    float: left;
+    height: 100%;
+    transform: translateY(10px);
+}
+.box-cont{
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.box-cont > *{
+    flex: 0 0 45%;
+}
+/* garden */
+.garden-box-cont{
+    margin: 2rem auto;
+    display: flex;
+
+}
+/* proposal */
+.pro-cont{
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+}
+.pro-box img{
+    float: left;
+    margin-right: 1rem;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    min-height: 5rem;
+    margin: 2rem auto;
+    background: url("/image/footer.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 80%;
+   
+    text-align: center;
+
+}
+.icon{
+    margin: 0 2rem;
+    color: aliceblue;
+}
+.icon:hover{
+    color: blue;
+}
+h1{
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+.para{
+    color: #a7a7a7;
+}
+section{
+    width: 75%;
+    margin: 4rem auto;
+
+}
+.center{
+    text-align: center;
+}
